@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Security Eye</title>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/js/main.js"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body class="fond">
+    <div class="container">
+        <div class="head">
+            <img src="/view/resources/happy.png" alt="img perfil" class="userimg">
+            <p class="user">Conectado a "usuario"</p>
+        </div>
+        <h1>Deteccion en directo</h1>
+        <button id="btn">Comenzar</button>
+        <video src="" id="video" style="width: 800px; height: 600px;" autoplay="true"></video>
+        <canvas id="preview"></canvas>
+        <div class="status"></div>
+        <div id="counter">Seconds remaining: ?</div>
+    </div>
+</body>
+</html>
